@@ -1,5 +1,7 @@
 # 手势密码
 ------
+http://iwtofly.cn/demos/mobileLock/index.html
+
 ### 使用方式
 1. 手机上打开build文件夹下的index.html即可看到相应的效果。
 2. 或者在本项目根目录下执行
@@ -8,7 +10,7 @@ npm install // 根据package.json安装依赖node_modules
 npm run dev //启动webpack，端口号3000
 ```
 访问 http://localhost:3000 即可
-3. 使用demo地址： http://iwtofly.cn/
+3. 使用demo地址： http://iwtofly.cn/demos/mobileLock/index.html
 
 ### 本程序特点如下：
 
