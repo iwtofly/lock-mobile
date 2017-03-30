@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>手势密码</title>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- <meta content="telephone=no" name="format-detection"> -->
+    <script>
+        document.querySelector('html').style.fontSize=window.innerWidth/10+'px';
+    </script>
+</head>
+<body>
+    <div id="content"></div>
+    <script src='vendor.dll.js'></script>
+    
+    <script src="bundle.js"></script>
+    <script src='Touch.js'></script>
+    <script type='text/javascript'>
+        document.querySelector('body').addEventListener('touchmove', function (ev) {
+            // 禁止页面滑动
+            event.preventDefault();
+        });
+</script>
+</body>
+</html>
